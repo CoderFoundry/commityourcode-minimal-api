@@ -1,0 +1,6 @@
+@commityourcode_minimal_api_HostAddress = http://localhost:5018
+
+GET {{commityourcode_minimal_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
