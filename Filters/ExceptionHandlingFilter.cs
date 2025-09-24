@@ -12,8 +12,11 @@
             }
             catch (Exception ex)
             {
-                // Loging the exception code would go here (you can use any logging framework)
-
+                // Loging the exception code would go here (you can use any logging framework)                
+                Console.WriteLine("*************  API ERROR  *************");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("***********************************");
+                
                 // Standardized Problem response
                 return Results.Problem(
                     statusCode: StatusCodes.Status500InternalServerError,

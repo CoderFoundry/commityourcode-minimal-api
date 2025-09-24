@@ -1,8 +1,8 @@
 using commityourcode_minimal_api.Extensions;
 using Microsoft.EntityFrameworkCore;
 using commityourcode_minimal_api.Data;
-using commityourcode_minimal_api.Endpoints;
 using commityourcode_minimal_api.Services;
+using commityourcode_minimal_api.Endpoints.Customer;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -48,9 +48,7 @@ app.MapGet("/weatherforecast", () =>
 
 app.UseStaticFiles();
 app.MapScalar();
-
 app.MapCustomerEndpoints();
-
 app.Run();
 
 internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)

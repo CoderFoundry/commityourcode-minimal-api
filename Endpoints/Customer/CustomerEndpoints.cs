@@ -4,7 +4,7 @@ using commityourcode_minimal_api.Models.DTO;
 using commityourcode_minimal_api.Filters;
 
 
-namespace commityourcode_minimal_api.Endpoints
+namespace commityourcode_minimal_api.Endpoints.Customer
 {
     public static class CustomerEndpoints
     {
