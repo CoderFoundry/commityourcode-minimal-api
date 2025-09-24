@@ -16,11 +16,15 @@
                 Console.WriteLine("*************  API ERROR  *************");
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("***********************************");
-                
-                // Standardized Problem response
+
+                var env = context.HttpContext.RequestServices
+                    .GetRequiredService<IHostEnvironment>();
+
                 return Results.Problem(
+                    detail: env.IsDevelopment() ? ex.ToString() : null,
                     statusCode: StatusCodes.Status500InternalServerError,
-                    title: "An unexpected error occurred");
+                    title: "An unexpected error occurred"
+                );
             }
         }
     }
