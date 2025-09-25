@@ -142,7 +142,7 @@ During my talk, I showed:
 
 4. Live-coding the POST /customers endpoint.
 
-*** This repo contains the finished version so that you can run everything end-to-end without modification. ***
+***This repo contains the finished version so that you can run everything end-to-end without modification.***
 
 ### Learn More
 
