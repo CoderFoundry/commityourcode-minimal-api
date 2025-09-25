@@ -7,7 +7,7 @@
 ## Overview
 This repository contains the **finished demo code** from my presentation **Minimal APIs at Scale**.
 
-In the talk, I live-coded parts of the `CustomerEndpoints` to show how Minimal APIs evolve from a toy Weather example in `Program.cs` into a **structured, enterprise-ready API**.  
+I live-coded parts of the `CustomerEndpoints` to show how Minimal APIs evolve from a simple Weather example in `Program.cs` into a **structured, enterprise-ready API**.  
 
 This repo includes the **complete, working version** of that code.
 
