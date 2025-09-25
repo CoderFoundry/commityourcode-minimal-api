@@ -106,7 +106,7 @@ Once running, open **Scalar** (API reference UI):
 [http://localhost:7022/](http://localhost:7022)
 
 - If you’re running from **Visual Studio 2026**, it should launch automatically in your browser.  
-- If not, you may need to adjust your **launchSettings.json** file under `Properties/` to include the Scalar URL.  
+- If not, you may need to adjust your **launchSettings.json** file under `Properties/` to adjust the port settings.  
 - If you’re running from the **CLI**, open the URL manually (port may vary based on your local environment).
 
 When the app is running, you should see a **Customers dropdown** with the three endpoints:
