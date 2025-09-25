@@ -58,8 +58,8 @@ You’ll see:
 
 ---
 
-## 🚀 Running the App
-### ✅ Prerequisites
+## Running the App
+### Prerequisites
 
  - [Visual Studio 2026](https://visualstudio.microsoft.com/insiders/)
  or the .NET CLI
@@ -100,7 +100,7 @@ dotnet run
 ```
 ---
 
-### 🌐 Explore the API
+### Explore the API
 
 Once running, open **Scalar** (API reference UI):  
 [http://localhost:7022/](http://localhost:7022)
