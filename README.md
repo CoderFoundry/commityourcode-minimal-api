@@ -1,6 +1,6 @@
 # Minimal APIs at Scale  
 **Enterprise-Ready Minimal APIs in .NET: Scaling Simplicity**  
-_A demo repo for Bobby's talk at CommitYourCode 2025_  
+
 
 ---
 
