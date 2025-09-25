@@ -48,7 +48,10 @@ app.MapGet("/weatherforecast", () =>
 
 app.UseStaticFiles();
 app.MapScalar();
+
 app.MapCustomerEndpoints();
+
+
 app.Run();
 
 internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
