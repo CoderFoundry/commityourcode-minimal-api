@@ -1,10 +1,10 @@
 # Minimal APIs at Scale  
 **Enterprise-Ready Minimal APIs in .NET: Scaling Simplicity**  
-_A demo repo for my talk at CommitYourCode 2025_  
+_A demo repo for Bobby's talk at CommitYourCode 2025_  
 
 ---
 
-## 📌 Overview
+## Overview
 This repository contains the **finished demo code** from my presentation **Minimal APIs at Scale**.
 
 In the talk, I live-coded parts of the `CustomerEndpoints` to show how Minimal APIs evolve from a toy Weather example in `Program.cs` into a **structured, enterprise-ready API**.  
@@ -20,7 +20,7 @@ You’ll see:
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```text
 .
